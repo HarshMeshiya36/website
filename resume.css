@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.bg{
+    background-image: url('./image/bg.jpg');
+    height: 227vh;
+    filter: blur(3px);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+}
+ 
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+    padding: 13px 0;
+    background-color: #7079a785;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar .sticky{
+    padding: 15px 0;
+    background: crimson;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: inherit;
+    position: relative;
+    right: 450px;
+}
+.navbar .menu li{
+    position: relative;
+    left: 450px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+}
+.navbar.sticky .menu li a:hover{
+    color: #fff;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Content  */
+.content{
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    display: flex;
+    border-radius: 10px;
+    color: black;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+
+.f1{
+    width: 50%;
+    margin: 5px 200px 5px 5px;
+}
+
+.f2{
+    width: 50%;
+    margin: 5px;
+}
+
+.f2 *{
+    margin: 10px;
+}
+.edu1{
+    background-color: white;
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    border-radius: 10px;
+    width:70%;
+    padding: 30px;
+    display: flex;
+    box-shadow: -5px -5px 25px white, -5px -5px 25px rgba(124, 44, 44, 0.581);
+}
+
+.edu2{
+    background-color: white;
+    position: absolute;
+    top: 730px;
+    left: 350px;
+    border-radius: 10px;
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    box-shadow: 10px 10px 25px white, 5px 5px 25px rgba(34, 43, 219, 0.718) ;
+}
+
+.e11{
+    width: 30%;
+
+}
+
+.e12{
+    width: 70%;
+}
+
+.e21{
+    width: 70%;
+}
+
+.e22{
+    width: 30%;
+}
+
+.skill{
+    background-color: white;
+    position: absolute;
+    top: 1025px;
+    left: 150px;
+    display: flex;
+    border-radius: 10px;
+    color: black;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+
+.s1{
+    width: 15%;    
+}
+
+.s2{
+    width: 85%;
+}
+
+.work{
+    background-color: white;
+    position: absolute;
+    top: 1370px;
+    left: 150px;
+    display: flex;
+    border-radius: 10px;
+    color: black;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+
+.w1{
+    width: 70%;
+}
+
+.w2{
+    width: 30%;
+}
+
+.reflection{
+    background-color: white;
+    position: absolute;
+    top: 1300px;
+    left: 150px;
+    display: flex;
+    border-radius: 10px;
+    color: black;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+
+.r1{
+    width: 19%;    
+}
+
+.r2{
+    width: 81%;
+}
